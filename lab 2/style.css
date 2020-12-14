@@ -1,0 +1,32 @@
+h2,h1{
+	color: green;
+	background-color: lightblue; 
+}
+ol{
+	color: green;
+}
+ul{
+	color: blue;
+}
+form{
+	font: status-bar;
+	font-size: 100%;
+}
+.iphone12 img {
+	height: 300px;
+}
+.iphone12 p{
+	color: red;
+	position: absolute; right:30%; top:25%; 
+	font: status-bar;
+	font-size: 20px;
+}
+.samsung20 img{
+	height: 300px;
+}
+.samsung20 p{
+	color: red;
+	position: absolute; right: 32%; top: 70%;
+	font: status-bar;
+	font-size: 20px;
+}
