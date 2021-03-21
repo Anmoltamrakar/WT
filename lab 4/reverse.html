@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Reverse</title>
+    </head>
+    <body>
+        <script>
+            function reverseString(str) {
+let newString = "";
+for (let k = str.length - 1; k >= 0; k--) {
+    newString += str[k];
+}
+return newString;
+}
+const string = prompt('Enter a word: ');
+
+const result = reverseString(string);
+console.log(result);
+        </script>
+    </body>
+</html>
