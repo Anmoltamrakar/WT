@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+        
+        
+		<title> Blog </title>
+        
+        
+       <meta name="author" content="Anmol tamrakar">
+        <meta name="blog" content="Blog Page">
+        
+        
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/blog.css">
+        
+        
+        <style>
+        body{
+        background-image: url(img/sita1.jpg);
+        margin:0px;
+            }
+            #remainingText{ 
+                display: none;
+                
+            }
+        </style>
+        
+        
+	</head>
+    
+        
+        <header>
+            
+        
+                <section class="navsection">
+                    <div class="logo">
+                        <h1><strong> <em> Anmol Tamrakar </em></strong> </h1>
+                    </div>
+                    
+                        <nav> 
+                            
+                            
+                            <a href="home.html">Home</a>
+                            <a class="child" href="blog.html">Blog</a>
+                            <a href="cv.html" >CV</a>
+                            <a href="contact.html" >Contact</a>
+                        </nav>
+                            
+                    </section>
+        </header>
+            
+           
+	<body>
+        
+        
+			<div class="blog">
+                <h1 align="center"> For sake of Sita</h1>
+                <br>
+                <p>For sake of sita is manwa based on nepal kumari system. This story has been done in novel and anime form. This story shows the strugles of a kumari love life. this was relesed on Jun 13, 2014 .The plot follows ; While volunteering in Nepal, a Korean medical student named Sangmin Han encounters the beautiful yet tragic Sita. Previously, she was a Kumari—a prepubescent girl worshipped as the vessel of a goddess. But she has since been forsaken as a Kumari, and cast out from society. Falling in love, they marry and move to Korea, but their blissful love is short-lived; Sita dies only a year later.Losing the woman dearest to him, Sangmin desperately begs the gods to bring Sita back.</p>
+                <br>
+                <p>  His prayers are answered but in exchange for a sacrifice, and he awakens in the streets of Nepal. However, something is amiss—his body has suddenly aged, and standing in front of him is a young Sita, with no memory of him.Through two lovers bound together by a destiny running deeper than it first appears, For the Sake of Sita is the story of Sita growing up as a Kumari, and Sangmin's tribulations in trying to avert her terrible fate. 
+                    
+                    
+                    <span id="remainingText"> <br><br>
+                        In cocnclusion I would like to say this without doubt a heartfelt webtoon and if you don't wanna cry do not watch it. But if you do wanna read it  it would be a great to read with it's Nepali theme it is something to enjoy.
+
+                    </span></p>
+                
+                   
+                <button onclick="changeText();" id="btn">Read more</button>
+            </div>
+        
+        
+		<script>
+            function changeText(){
+                var moreText = document.getElementById("remainingText");
+                var btn = document.getElementById("btn");
+            
+            if(moreText.style.display =="none"){
+                moreText.style.display = "inline";
+                btn.innerHTML = "Read less."
+            }
+            else{
+                moreText.style.display = "none";
+                btn.innerHTML = "Read more."
+            }
+        }
+        </script>
+        
+	</body>
+    
+    
+</html>
+
+ 

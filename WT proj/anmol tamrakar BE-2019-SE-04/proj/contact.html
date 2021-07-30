@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+    
+	<head>
+		<title> Contact </title>
+        
+        
+		<link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        
+        
+		<style>
+            body{
+                background-image: url(img/2047377.jpg);
+                background-size:cover;
+                background-attachment: scroll;
+                background-position: center;
+            }
+            .form{
+                background-color: dimgray;
+                color: aliceblue;
+                width: 450px;
+                padding: 50px;
+                margin: auto;
+                border-radius: 10px;
+                margin-bottom: 40px;
+                font-size: 20px;
+                font-family: cursive;
+                position: relative;
+                background: rgba(0,0,0,0.4);
+            }
+            input{
+                font-family: cursive;
+                color:aliceblue;
+            }
+            textarea{
+                resize: none;
+                height: 120px;
+                width: 400px;
+                background: none;
+                color: white;
+        
+            }
+            input, textarea{
+                border: 2px outset;
+                background: none;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .form input[type="submit"]{
+                outline: none;
+                height: 40px;
+                background-color: antiquewhite;
+                font-size: 18px;
+            }
+            .form button{
+                border-radius: 20cm;
+                outline: none;
+                width: 270px;
+                height:40px;
+                background-color: #f0763e;
+                color:aliceblue;
+            }
+            .box{
+                width:300px;
+                height:20px;
+            }
+		</style>
+	</head>
+    
+    
+	<header>
+        
+        
+                <section class="navsection">
+                    <div class="logo">
+                        <h1><strong> <em> Anmol Tamrakar  </em></strong> </h1>
+                    </div>
+                    
+		<nav>
+            
+            
+			<a href="home.html" >Home</a>
+            <a href="blog.html" >Blog</a>
+            <a href="cv.html" >CV</a>
+            <a class="child" href="contact.html" >Contact</a>
+		</nav>
+                    
+                    
+        </section>
+    </header>
+    
+		
+		<body>
+            
+            
+            <div class="form">
+                <h3 align="center">Contact me</h3>
+                
+                
+                <form onsubmit="validateForm();" name="messageForm">
+                    
+                    <label for="name"> Name: </label><br/> 
+                    <input type = "text" placeholder="Name" class="box" name="name" >
+                    <br><br>
+                    
+                    <label for="country"> Country: </label><br/>
+                    <input type = "text" placeholder="Country" class="box" name="country">
+                    <br><br>
+                    
+                    <label for="email"> Email: </label><br/>
+                    <input type = "text" placeholder="Email abc@gmail.com" class="box" name="email">
+                    <br> <br>
+                    
+                    <label for="gender"> Gender: </label><br/> 
+                    Male<input type = "radio" name="Gender" value="Male"> 
+                    Female<input type = "radio" name="Gender" value="Female">
+                    Other<input type = "radio" name="Gender" value="Other">
+                    <br>
+                    <br>
+                    
+                    <label for="message"> Write a Message: </label><br/>
+                    <textarea rows="10" cols="100" name="message" placeholder="Write a message!" ></textarea>
+                    <br><br>
+                    
+                    <div><center>
+                        <button type="submit" name="Submit" value="Submit" align="center">Send</button>
+                        </center></div>
+                    
+                </form>
+                
+                
+            </div>
+	</body>
+    
+    
+    <footer align="center">
+        
+        
+        <div class="foot">
+            
+            
+            <p style="text-align: center; font-size: 15px;"> Email: arjun.tamrakar99@gmail.com || Call: 9869352094</p>
+            <p style="text-align: center; font-size: 15px;">copyright &copy; 2021 || Created and Owned By Anmol Tamrakar</p>
+    
+                <a href="https://twitter.com/anmol_tamrakar" target="_blank">
+                <img src="img/twitter.png" class="twitter"></a>
+            
+                <a href="https://github.com/Anmoltamrakar" target="_blank">
+                <img src="img/github.png" class="github"></a>
+     </div>
+        
+    </footer>
+    
+</html>
+

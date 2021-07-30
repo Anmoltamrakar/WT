@@ -1,0 +1,79 @@
+/* start of main*/
+
+main{
+    height:109vh;
+    margin-left:50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.leftside_cv{
+    margin:30px;
+    padding: 20px;
+    height:100vh;
+    width: 30%;
+    background: gray;
+    align-items: center;
+    font-family: cursive;
+    border-radius:10px;
+    color: black;
+}
+
+.leftside_cv p{
+    text-align: center;
+}
+
+.leftside_cv img{
+    width:200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 200px;
+    padding: 60px;
+    justify-content: center;
+}
+
+.rightside_cv{
+    height:100%;
+    border-radius:10px;
+    width: 70%;
+    background: gray;
+    margin-top:20px;
+}
+
+.data{
+    margin-top: 80px;
+    font-family: cursive;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.edu{
+    font-family: cursive;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* start of table */
+
+table{
+    width: 45%;
+}
+
+.tab{
+    width: 100%;
+}
+
+.tech{
+    font-family: cursive;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.skills
+    width: 20%;
+}
+
+/* end of table */
+
+/* end of main */

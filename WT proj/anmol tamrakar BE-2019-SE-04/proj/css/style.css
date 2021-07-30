@@ -1,0 +1,144 @@
+*{margin:0; padding: 0;}
+
+/* start of header */
+header{
+    width:100%;
+    height: 20vh;
+}
+/* end of header */
+
+/* start of navigation */
+.navsection{
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+}
+
+
+
+.logo{
+    width:40%;
+    color: yellow;
+    font-family: fantasy;
+}
+
+nav{
+    float:right;
+    font-size: 20px;
+}
+
+nav a{
+    float:none;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    padding:15px;
+    color: black;
+    transition: 0.5s all;
+}
+
+.child{
+    font-size: 25px;
+    color: #6b9ded;
+}
+
+/* end of navigation */
+
+/* start of body */
+
+body{
+    margin: 0;
+    padding: 0;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.vid-bg{
+    position: absolute;
+    right: 0;
+   bottom: 0;
+   min-height: 100%;
+   min-width: 100%;
+   
+}
+
+.foot{
+    position: relative;
+    color: whitesmoke;
+
+    
+}
+
+
+/* start of main */
+
+main{
+    height: 65vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around; 
+    display: flex;
+    position: relative;
+    ov
+}
+
+/* end of main */
+
+.leftside{
+                
+    background: rgba(0,0,0,0.4);
+    border-radius:20px;
+    padding: 50px;
+    margin-bottom: 50px;
+    width:50%;
+    color: whitesmoke;
+}
+
+.about_me{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.rightside img{
+    width: 250px;
+    height: 250px;
+    border: 05px;
+    margin: 80px;
+    border-color: white;
+    border-radius: 200px;
+    border-style: outset;
+}
+
+/* end of body */
+
+/* start of footer*/
+
+footer{
+    color: #748077;
+    background: #2d362f;
+    padding: 15px;   
+}
+
+.twitter{
+    height:40px;
+    width: 40px;
+    
+}
+
+.github{
+    height:40px;
+    width: 40px;
+}
+
+/* end of footer */
